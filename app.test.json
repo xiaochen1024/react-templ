@@ -1,0 +1,12 @@
+{
+  "apps": [{
+    "name": "react-templ",
+    "script": "./server/main.js",
+    "exec_mode": "fork",
+    "env": {
+      "NODE_ENV": "production",
+      "RELEASE": "test",
+      "PORT": "4004"
+    }
+  }]
+}
